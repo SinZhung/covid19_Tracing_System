@@ -1,9 +1,9 @@
-COVID-19 Contact Tracing System
+# COVID-19 Contact Tracing System
 
-Overview
+## Overview
 This project implements a simplified contact tracing system for COVID-19, featuring three main entities: Customer, Shop, and CustomerHistory. It allows customers to register, check-in at shops, and view their visit history. Shops can be flagged based on customer status, and administrators can view details of customers, shops, and the master visit history.
 
-Files
+## Files
 1. Customer.java
   Basic customer attributes.
   Methods: getCustomerName()
@@ -23,11 +23,11 @@ Files
 5. Main.java
 Entry point with main functionality and interactions.
 
-Additional Features
+##Additional Features
 1. CSV Files
   Customer.csv: Stores customer data.
   CustomerHistory.csv: Stores visit history.
   Shop.csv: Stores shop data.
 
-Note
+## Note
 This implementation prioritizes simplicity and provides essential functionalities for contact tracing. Customize the code as needed.
